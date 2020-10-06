@@ -29,15 +29,15 @@ const wsProxy = websockify('HOST:PORT')
 ```javascript
 const express = require('express')
 const app = express()
-const http = require('http').Server(app)
+const server = require('http').Server(app)
 
 const port = process.env.PORT || 8080
 
 const websockify = require('@simplemnt/node-websockify')
 const wsProxy = websockify('0.0.0.0:5900')
 
-http.listen(port, () =>  console.log('listening on *:' + port))
-wsProxy(http, '/some-path')
+server.listen(port, () =>  console.log('listening on *:' + port))
+wsProxy(server, '/some-path')
 ```
 
 ### http (untested)
