@@ -1,0 +1,31 @@
+{
+  "name": "@simplemnt/node-websockify",
+  "version": "1.0.1",
+  "description": "WebSocket-to-TCP proxy/bridge in NodeJS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Simplemnt/node-websockify.git"
+  },
+  "keywords": [
+    "websockets",
+    "websockify",
+    "tcp",
+    "vnc",
+    "novnc",
+    "proxy"
+  ],
+  "author": "Sandeep Dinesh",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/Simplemnt/node-websockify/issues"
+  },
+  "homepage": "https://github.com/Simplemnt/node-websockify#readme",
+  "dependencies": {
+    "ws": "^7.3.1"
+  },
+  "devDependencies": {}
+}
